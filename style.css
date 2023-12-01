@@ -1,0 +1,48 @@
+.outer-Box{
+    background-color:gray;
+    width:800px;
+    height:600px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.upper-Box{
+    margin-bottom:28px;
+}
+#imageInput {
+    margin-left: 22px;
+    margin-top: 40px;
+}
+.lower-Box{
+    width:750px;
+    height:490px;
+    margin-left: 23px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+* {
+    font-family : arial;
+}
+#canvas {
+    margin-top: 20px;
+    width: 350px;
+    margin-left : 13px;
+    
+}
+#original-Image{
+    margin-top: 33px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#converted-Image{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.convert-Button {
+    margin-left: 15px;
+}
+#img-display{
+    margin-top: 20px;
+    width: 350px;
+    margin-left : 13px;
+}
